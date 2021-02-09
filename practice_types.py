@@ -33,3 +33,12 @@ salads[1][2] = "Mozarella"
 print(salads)
 
 # TUPLES
+months = ('Jan', 'Feb', 'Mar', 'Apr')
+print(months)
+#months[1] = "Sept"
+#print(months[1])
+favemonth = "July"
+summermonths = ('June', favemonth, 'Aug')
+print(summermonths)
+favemonth = "december"
+print(summermonths)
