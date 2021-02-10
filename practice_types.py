@@ -31,6 +31,7 @@ print(salads[1][1])
 print(salads[-2][-2])
 salads[1][2] = "Mozarella"
 print(salads)
+#Lists are mutable, they can be altered (and possibly subtracted from also)
 
 # TUPLES
 months = ('Jan', 'Feb', 'Mar', 'Apr')
@@ -42,3 +43,16 @@ summermonths = ('June', favemonth, 'Aug')
 print(summermonths)
 favemonth = "december"
 print(summermonths)
+#Tuples are immutable - you cannot add to the collection.
+
+#DICTIONARIES
+zodiacs = {'January': 'Capricorn', 'February': 'Aquarius', 'March': 'Pisces', 'April': 'Virgo', 'May': 'Gemini'}
+print(zodiacs)
+#print(zodiacs[1])
+#The command on line 49 will not work because there are no indices in dictionaries. We need to reference the key value pair
+print(zodiacs['February'])
+birth_month = 'July'
+zodiacs[birth_month] = 'Cancer'
+print(zodiacs)
+#Lines 52,53 and 54 are a demonstration of how to add to the dictionary.
+print(zodiacs.keys())
