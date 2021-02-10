@@ -56,3 +56,14 @@ zodiacs[birth_month] = 'Cancer'
 print(zodiacs)
 #Lines 52,53 and 54 are a demonstration of how to add to the dictionary.
 print(zodiacs.keys())
+
+#CONDITIONALS
+meals = ['breakfast', 'lunch', 'dinner']
+if 'lunch' in meals:
+    print('lunch is there')
+if 'desert' in meals:
+    print('eat well')
+else:
+    print('desert is not in meals')
+
+
